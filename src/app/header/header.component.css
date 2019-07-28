@@ -1,0 +1,22 @@
+.header{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.header h2{
+    font-weight: bold;
+}
+.header span {
+    font-size: 50px;
+    color: whitesmoke;
+    background-color: royalblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+.nav {
+    background-color: royalblue;
+}
+.nav-link {
+    color: whitesmoke;
+    font-weight: bold;
+}
