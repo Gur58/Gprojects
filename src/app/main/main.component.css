@@ -1,0 +1,13 @@
+.row{
+    margin-top: 20px;
+}
+.info{
+    text-align: justify;
+}
+.info :first-child{
+    text-align: center;
+    font-weight: bold;
+}
+#logo_main{
+    width: 100%;
+}

@@ -31,6 +31,15 @@ module.exports = {
                 test: /\.css$/,
                 include: path.resolve(__dirname,'src/app'),
                 loader: 'raw-loader'
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {},
+                    },
+                ],
             }
         ]
     },
