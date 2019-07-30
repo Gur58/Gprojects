@@ -8,13 +8,13 @@
 .header span {
     font-size: 50px;
     color: whitesmoke;
-    background-color: crimson;
+    background-color: #F04D50;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 50px;
 }
 .nav {
-    background-color: crimson;
+    background-color: #F04D50;
 }
 .nav-link {
     color: whitesmoke;
