@@ -1,0 +1,46 @@
+.project{
+    background-color: #f9f8ea;
+    border:3px solid #F04D50;
+    margin: 10px;
+    padding: 10px;
+}
+
+.project-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-description{
+    text-align: justify;
+}
+.project-tag{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-tag div{
+    background-color: #F04D50;
+    margin-right: 3px;
+    margin-top: 3px;
+    padding: 3px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.project-link a{
+    text-decoration: none;
+    color: #F04D50;
+}
+
+.project-link a:hover{
+    font-weight: bold;
+}
+
+.project-img img {
+    width: 100%;
+}
+
+.project-img{
+    display: flex;
+    align-items: center;
+}

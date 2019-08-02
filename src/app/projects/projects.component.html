@@ -1,0 +1,22 @@
+<header-app></header-app>
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <div class="project" *ngFor="let item of projects">
+            <div class="row">
+                <div class="col-md-2 project-img">
+                    <img src="../res/img/angular.png">
+                </div>
+                <div class="col-md-10">
+                    <p class="project-title">{{item.title}}</p>
+                    <p class="project-description">{{item.description}}</p>
+                    <p class="project-link">Ссылка на GitHub: <a href="{{item.url}}">{{item.title}}</a></p>
+                    <div class="project-tag">
+                        <div *ngFor="let tag of item.technology">{{tag}}</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<footer-app></footer-app>
