@@ -1,0 +1,5 @@
+{"projects": [{"title":"Gprojects",
+  "description":"Gprojects - отправная точка, где собрана краткая иноформация о всех проектах, ссылки на репозитории и контакты для связи с разработчиком.",
+  "technology":["HTML","CSS","Angular","BootStrap","WebPack","NodeJS","NPM"],
+  "url":"https://github.com/Gur58/Gprojects",
+  "img":"../../../public/img/angular.png"}]}

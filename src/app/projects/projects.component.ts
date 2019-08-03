@@ -1,4 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from "@angular/common/http"
+import {Projects} from "./projects";
 
 @Component({
     selector: 'my-projects',
@@ -6,16 +8,16 @@ import {Component} from '@angular/core';
     styleUrls: ['./projects.component.css']
 })
 
-export class ProjectsComponent {
-    projects:{}[]=[
+export class ProjectsComponent implements OnInit{
+    projects:Projects[]=[];
+
+    constructor(private http:HttpClient){}
+
+    ngOnInit(): void {
+        this.http.get('projects.json').subscribe((data) => this.projects=data['projects']);
+        for(let item of this.projects)
         {
-            title: 'Gprojects',
-            description: 'Gprojects - отправная точка, где собрана краткая иноформация о всех проектах, ссылки на репозитории и контакты для связи с разработчиком.',
-            technology: ['HTML', 'CSS', 'Angular', 'BootStrap', 'WebPack', 'NodeJS', 'NPM'],
-            url: 'https://github.com/Gur58/Gprojects',
-            img: 'angular.png'
+            item.img='../../../public/img/'+item.img;
         }
-    ]
-
-
+    }
 }

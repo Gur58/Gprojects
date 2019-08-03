@@ -1,8 +1,16 @@
+.row{
+    margin-bottom: 40px;
+}
+
 .project{
     background-color: #f9f8ea;
-    border:3px solid #F04D50;
+    border:5px double #F04D50;
     margin: 10px;
     padding: 10px;
+}
+
+.project:hover{
+    border-style: solid;
 }
 
 .project-title{

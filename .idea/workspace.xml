@@ -2,81 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99afb825-b3a6-4d97-a692-635cffe3247b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/projects.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/projects.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/projects.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contact/contact.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contact/contact.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contact/contact.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/projects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/res/img/cont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/res/img/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/res/img/contact2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/http2.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/http2.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/write.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/entry-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/entry-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/fix-owner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/fix-owner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/tmp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/tmp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/verify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cacache/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/put.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/.bin/json5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/big.js/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/big.js/LICENCE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/big.js/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/big.js/big.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/big.js/big.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/big.js/big.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/big.js/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/require.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/stringify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/unicode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/lib/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/json5/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/getCurrentRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/getHashDigest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/getOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/getRemainingRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/interpolateName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/isUrlRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/parseQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/parseString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/stringifyRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/lib/urlToRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/loader-utils/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/lib/CachedSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/lib/CachedSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/lib/PrefixSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/lib/PrefixSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/lib/ReplaceSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/lib/ReplaceSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/lib/Source.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/lib/Source.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/lib/SourceAndMapMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/lib/SourceAndMapMixin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/lib/SourceMapSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/lib/SourceMapSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-sources/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main/main.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/footer/footer.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/res/img/angular.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/angular.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -115,8 +57,16 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/public/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/res/img" />
+      <recent name="$PROJECT_DIR$/src/app/projects" />
       <recent name="$PROJECT_DIR$/src/app" />
     </key>
   </component>
@@ -145,7 +95,8 @@
       <workItem from="1564327287837" duration="10462000" />
       <workItem from="1564424612152" duration="3300000" />
       <workItem from="1564507046836" duration="3638000" />
-      <workItem from="1564768584883" duration="12443000" />
+      <workItem from="1564768584883" duration="12794000" />
+      <workItem from="1564850707396" duration="11571000" />
     </task>
     <servers />
   </component>

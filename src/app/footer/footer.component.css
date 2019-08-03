@@ -1,4 +1,11 @@
 .footer-copyright{
-    color: #F04D50;
+    color: whitesmoke;
     font-weight: bold;
+}
+
+.panel-footer{
+    background-color: #F04D50;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
